@@ -14,9 +14,9 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-lib/libdualcameraddm.so
-lib/libjni_dualcamera.so
-lib/libqvrcamera_client.so
+system/lib/libdualcameraddm.so
+system/lib/libjni_dualcamera.so
+system/lib/libqvrcamera_client.so
 vendor/lib/libchromaflash.so
 vendor/lib/libgralloc1.so
 vendor/lib/libjpegdhw.so
