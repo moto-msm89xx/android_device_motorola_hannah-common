@@ -20,4 +20,13 @@ export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2019
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+source "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
+# Reinitialize the helper for device
+DEVICE_COMMON=hannah-common
+setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
+
+extract "${MY_DIR}/../${DEVICE_COMMON}/proprietary-files.txt" "${SRC}" \
+        "${KANG}" --section "${SECTION}"
+
+"${MY_DIR}/../${DEVICE}/setup-makefiles.sh"
