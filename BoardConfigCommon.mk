@@ -28,4 +28,4 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(HANNAH_COMMON_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(HANNAH_COMMON_PATH)/sepolicy/private
 
 # Inherit from the proprietary version
--include vendor/motorola/hannah-common/BoardConfigVendor.mk
+include vendor/motorola/hannah-common/BoardConfigVendor.mk
