@@ -154,6 +154,13 @@ vendor/lib/libchromatix_ov5675_jeterkc_snapshot.so
 vendor/lib/libchromatix_ov5675_jeterkc_zsl_preview_3a.so
 vendor/lib/libchromatix_ov5675_jeterkc_zsl_video_3a.so
 
+# Camera eeprom - from deen_sprout - PPKS29.68-16-36-14
+vendor/lib/libmmcamera_l12aa00_eeprom.so|245167226cba82bee3c6880f93163e44b3ed01cb
+vendor/lib/libmmcamera_ov5675_eeprom.so|9584fd9fac8619eb8e08372f5ac7af417bc3718a
+
+# Camera eeprom - from deen_sprout - QPKS30.54-22-12
+vendor/lib/libmmcamera_s5k4h7_eeprom.so|04e8f356fbda2d07b9d4f2ff4cb2bf328184b3e5
+
 # Camera ISP - from deen_sprout - QPKS30.54-22-12
 vendor/lib/libmmcamera_isp_abf40.so|d5680729e89d11e3c2a863d628c398d2c6ff9784
 vendor/lib/libmmcamera_isp_bcc40.so|83f0882de39934c897809c172bdfa4af2f9c97c4
